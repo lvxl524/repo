@@ -9,12 +9,12 @@ Description: 溯元阁
 Support: https://lvxl524.github.io/repo/
 Icon: https://lvxl524.github.io/repo/CydiaIcon.png
 MD5Sum:
- c32894c46e6892d1cd9ce7b6f6ae3030  7081 Packages
- 9e0d0879aa796ac07fdab615f22bde09  3190 Packages.gz
- 4e2a30d54a9031f864ab41d54f64d19a  3225 Packages.bz2
- a12eb99ee65f2cd99933e8edb2e8c59a  2916 Packages.xz
+ cbfb00cc5b293598742449f0d9aa0764  9272 Packages
+ b847f2e0225a4cced282ea1f9a88bc0d  4118 Packages.gz
+ 182389e0ccd18bfb5601af9041412060  4028 Packages.bz2
+ df069934f3b5cc0ed842872ec399076b  3736 Packages.xz
 SHA256:
- 5abe5b6ee9b6e7c3afd0887f2c2a46d8580c8cb517a6d16e13c7694b0e77adc8  7081 Packages
- ce9f927517a80d343309e5c4f790c0ec45af2bc8b0066c810b6d36e6cf6f477f  3190 Packages.gz
- 6bebc46d870ee3d0ef97d551f35094c239e1b37d4f8cc8e95b1b6995f90d4dcc  3225 Packages.bz2
- 52426aefbced22d378cab54809c27d8ca116bfdb181058f9e1b27cd3ecb99883  2916 Packages.xz
+ 2c02687774bc2ddad95b61f4507ba9e6a4d42eabb788e7cf34e377426e4d5f77  9272 Packages
+ 5c5d6223f82c3947c63dc1481e8f7976e7a5efe95d42a357d71122f53ab600c0  4118 Packages.gz
+ bedcaad0dcfb7b1570ddd88f65ccf00aada0cc665c3b2cbacf7f5a0d254152b6  4028 Packages.bz2
+ b9e2a84bfe4291fd5412cfa651f5ff6be27074f3f8240fa042cb4128dd931776  3736 Packages.xz

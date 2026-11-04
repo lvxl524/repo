@@ -35,6 +35,58 @@ SHA1: b3df1bf9b8483e23d436177fc145adc8ef93bd6e
 SHA256: 3d0f4c47fc73d9fa34254e4b6f703d9a67f834a27aba0bdd444bc08ce1f240cb
 SHA512: b4a874eac4bc1cc771afb69e626adaf462ada03c08d15b5412a9b67d78daae6205c092c7f6e578ef8d14381af62615d4f0a19ea5bb8544a2889d05946c14db0c
 
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
+Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.3
+Installed-Size: 612
+Filename: debs/com.iosdump.jumpselect_1.3_iphoneos-arm64e.deb
+Size: 98830
+MD5sum: 2117af6795e6a197fa4958c0bf9d1bf0
+SHA1: 4e73628bea066aaa90df765baaa8735b79418e99
+SHA256: 344ac4587d90e291916a42ca0eaf54e63ef724e46c4c7882235d3c6d7a4c5758
+SHA512: 0c461c98b360833bf08ee37d97596ce1b0962471cec0d4037cecd9c7a49d7301643ef8224fe3e1e7b236ac1073131689e2b16c4282406397be895cfae99bce60
+
+Package: com.iosdump.memorycontrol
+Name: MemoryControlX
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 进程内存与优先级调整
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.3
+Installed-Size: 780
+Filename: debs/com.iosdump.memorycontrol_1.3_iphoneos-arm64.deb
+Size: 91722
+MD5sum: 878546171bc837a525a725b2f7517a6e
+SHA1: f3aaaa2c42ba72249a295cbb9d5a154d5455f5a8
+SHA256: db8956dc922f5bd1b7eefdb7e30a7969daff9abb6a4780e6cb62ca9dd2f1ffd4
+SHA512: 4742b47e23e3496aad555578a41089e3f3975ad50a248b12972ba26fc109fd647329b9a9d35a4d00a3f19e1bc4726c28c13bd3472978f93b0232e454614008c9
+
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 11.3
+Installed-Size: 11452
+Filename: debs/com.iosdump.shellx_11.3_iphoneos-arm64e.deb
+Size: 2601634
+MD5sum: 875d7936255d0996660a65e605aa1d06
+SHA1: 995a1741bdeba8f0177736626107c88e10e64085
+SHA256: 16cd095a77a219a2cdd122048e644f2d9c6bb8a7a99e16939a8fd19b858feb75
+SHA512: f2ef597cfd261d637972a59226fb476062f8f63ea8eb01096489533f4bbfbe42e1cecabbe570a58ad01c0112780550ad69730c2011039e023ae78e3f0ad7d700
+
 Package: com.johndie.triggr.zhpatch
 Name: Triggr 汉化补丁
 Version: 1.0.7
