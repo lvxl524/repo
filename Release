@@ -9,8 +9,8 @@ Description: 溯元阁
 Support: https://lvxl524.github.io/repo/
 Icon: https://lvxl524.github.io/repo/CydiaIcon.png
 MD5Sum:
- 6cea256c5e94b36100190f16e036ed3d  779 Packages
- 90319af74403d57dd336fc394caef5ff  606 Packages.gz
+ e2ba5eb4ae0b44572a97189ee37014de  773 Packages
+ fcdbfd117d4336ec6dbca53305ad0326  610 Packages.gz
 SHA256:
- c0f6f880915fbeadac0ae16e15f50b28438cd19c3c3009849f99de11b5c52187  779 Packages
- 201894fe58fcd3c887a147e8266fabb03f88067ebb17ea2d64059d6ef411cffe  606 Packages.gz
+ 157c92298702974876ad06390e7a55b20b50fccf15cfac11c67645efba084921  773 Packages
+ 89b88f4a3c3ac79e18f3f75dcb97d43e1f53c2abdcb13536597902bed9c7e335  610 Packages.gz

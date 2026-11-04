@@ -10,7 +10,7 @@ MD5sum: 7de2e5eeaa76aaff0d7d0d99bad63c35
 SHA1: c6fd476a7307f5c0d8d64143b62ed97554dfb9f1
 SHA256: 7c3ff5e377313a73c7060bfbded2465d1f053c1fe0a386d2d7f618c4383fd288
 SHA512: bbde26f27dd70252cee710bb9f5c5d903cc97a88c75dbb37e1927a49b6c924f64a81b61f066383e461a97343d454bb7c07861102b0f9c34d299f63cecd61b3b9
-Section: 系统增强
+Section: 插件
 Description: 根据你的软件图标颜色来自适应角标颜色，季伯宇强烈推荐
 Author: P2KDev
 Name: Tinge(rootless)
