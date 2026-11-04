@@ -1,0 +1,16 @@
+Origin: 溯元阁
+Label: 溯元阁
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: 溯元阁
+Support: https://lvxl524.github.io/repo/
+Icon: https://lvxl524.github.io/repo/CydiaIcon.png
+MD5Sum:
+ 68b329da9893e34099c7d8ad5cb9c940  1 Packages
+ 50007b14fc427acea3b76e404c401abf  30 Packages.gz
+SHA256:
+ 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b  1 Packages
+ 19995ad0e43a0347d2bcf4590f192a89c34bdddb873a80b635069cccf08a0e64  30 Packages.gz
