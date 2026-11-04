@@ -4,11 +4,12 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"; cd "$ROOT"
 REPO_URL="${REPO_URL:-https://lvxl524.github.io/repo/}"; mkdir -p debs
 command -v apt-ftparchive >/dev/null 2>&1 || { echo "缺少 apt-ftparchive"; exit 1; }
 DEBS_ABS="$ROOT/debs"
-if apt-ftparchive packages "$DEBS_ABS" >/dev/null 2>&1; then
-  apt-ftparchive packages "$DEBS_ABS" | sed "s#^Filename: .*/#Filename: debs/#" > Packages
+# -a 必须列出全部包架构，否则 apt-ftparchive 会跳过 iphoneos-arm64e（roothide）的包
+if apt-ftparchive -a "iphoneos-arm iphoneos-arm64 iphoneos-arm64e" packages "$DEBS_ABS" >/dev/null 2>&1; then
+  apt-ftparchive -a "iphoneos-arm iphoneos-arm64 iphoneos-arm64e" packages "$DEBS_ABS" | sed "s#^Filename: .*/#Filename: debs/#" > Packages
 else
   SCAN="$(mktemp -d)/debs"; mkdir -p "$SCAN"; cp -f "$DEBS_ABS"/*.deb "$SCAN"/ 2>/dev/null || true
-  apt-ftparchive packages "$SCAN" | sed "s#^Filename: .*/#Filename: debs/#" > Packages
+  apt-ftparchive -a "iphoneos-arm iphoneos-arm64 iphoneos-arm64e" packages "$SCAN" | sed "s#^Filename: .*/#Filename: debs/#" > Packages
 fi
 # 注意：脚本开启了 set -e，可选的 override 步骤必须用 if 包裹，
 # 否则没有 overrides.json 时 [ -f ] 返回 1 会让整个脚本提前退出，
