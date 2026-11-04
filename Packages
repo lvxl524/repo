@@ -3,12 +3,12 @@ Name: 乌贼本地离线授权
 Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
 Maintainer: BVN
 Author: BVN
-Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 1.0.1-1
 Installed-Size: 328
 icon: https://huayuarc.github.io/icon/wuzeililiang.jpg
+Section: 系统增强
 Filename: debs/com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e.deb
 Size: 38100
 MD5sum: 04a86be5dacc7b092396fad0149d354a
@@ -21,13 +21,13 @@ Name: 乌贼手势 iOS 17 补丁
 Description: 修复SquidGesturePro在iOS17状态栏不生效与启动快捷指令时导致的安全模式。 不生效就把手势内总开关跟小开关重新开启一下，有问题请卸载。
 Maintainer: 航
 Author: 航
-Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
 Conflicts: com.codex.squidgesture17fix
 Architecture: iphoneos-arm64e
 Version: 2.3
 Installed-Size: 92
 icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+Section: 系统增强
 Filename: debs/com.hang.squidgesturepro-ios17fix_2.3_iphoneos-arm64e.deb
 Size: 15036
 MD5sum: f64e63681d86479a64a1640d32cfdb45
@@ -41,10 +41,10 @@ Depends: mobilesubstrate, preferenceloader
 Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱
 Maintainer: iosdump
 Author: iosdump
-Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 1.3
 Installed-Size: 612
+Section: 系统增强
 Filename: debs/com.iosdump.jumpselect_1.3_iphoneos-arm64e.deb
 Size: 98830
 MD5sum: 2117af6795e6a197fa4958c0bf9d1bf0
@@ -58,10 +58,10 @@ Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 进程内存与优先级调整
 Maintainer: iosdump
 Author: iosdump
-Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.3
 Installed-Size: 780
+Section: 系统增强
 Filename: debs/com.iosdump.memorycontrol_1.3_iphoneos-arm64.deb
 Size: 91722
 MD5sum: 878546171bc837a525a725b2f7517a6e
@@ -76,10 +76,10 @@ Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snappe
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
 Maintainer: iosdump
 Author: iosdump
-Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 11.3
 Installed-Size: 11452
+Section: 系统增强
 Filename: debs/com.iosdump.shellx_11.3_iphoneos-arm64e.deb
 Size: 2601634
 MD5sum: 875d7936255d0996660a65e605aa1d06
@@ -180,10 +180,10 @@ Sileodepiction: https://sini921.github.io/repo/sileodepiction/cylinderreborn/js.
 Description: 有点意思的桌面图标动画，基于开源优化编译，修正汉化，适配支持roothide。
 Maintainer: Ryan Nair & SINI
 Author: Ryan Nair & SINI
-Section: 越狱插件
 Architecture: iphoneos-arm64
 Version: 1.2.0-1
 Installed-Size: 1860
+Section: 系统增强
 Filename: debs/com.sini921.cylinderreborn_1.2.0-1_iphoneos-arm64.deb
 Size: 338710
 MD5sum: 204bc74f2b522305fa5d79e08b3edeb6
@@ -196,13 +196,13 @@ Name: PSCamera(rootless)
 Description: 系统相机App简单优化，使用了一些PoomSmart的开源代码
 Maintainer: PoomSmart & SINI
 Author: PoomSmart & SINI
-Section: 越狱插件
 Depends: mobilesubstrate (>= 0.9.5000)
 Icon: https://sini921.github.io/repo/sileodepiction/icon/pscamera.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/pscamera/js.json
 Architecture: iphoneos-arm64
 Version: 0.0.1-5
 Installed-Size: 600
+Section: 系统增强
 Filename: debs/com.sini921.pscamera_0.0.1-5_iphoneos-arm64.deb
 Size: 122896
 MD5sum: e96b49a69f84b37103e5496fac2482c1

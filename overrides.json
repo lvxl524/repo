@@ -1,8 +1,11 @@
 {
-  "com.sini.tinge": {
-    "section": "系统增强"
-  },
-  "com.shtm.xos": {
-    "section": "微信插件"
-  }
+  "com.sini.tinge": { "section": "系统增强" },
+  "com.shtm.xos": { "section": "微信插件" },
+  "com.bvm.wuzeililiang": { "section": "系统增强" },
+  "com.hang.squidgesturepro-ios17fix": { "section": "系统增强" },
+  "com.iosdump.jumpselect": { "section": "系统增强" },
+  "com.iosdump.memorycontrol": { "section": "系统增强" },
+  "com.iosdump.shellx": { "section": "系统增强" },
+  "com.sini921.cylinderreborn": { "section": "系统增强" },
+  "com.sini921.pscamera": { "section": "系统增强" }
 }
