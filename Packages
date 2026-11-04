@@ -138,3 +138,22 @@ MD5sum: 204bc74f2b522305fa5d79e08b3edeb6
 SHA1: 36591453d5b37ef094255fe8e37b77c910350e64
 SHA256: 90b017135f80d6981ac3fed479dcd5c4d4f08082b3d399bec06ba01da88d7bb0
 SHA512: b2a5e7241034626dabb2990a3754cec5cf284e1ce5f898f17100553c872fcfc0fc3ed978b01ebaf1fe7a1a5311c9d7cf520707a13184b8eb663aa993e0d92de3
+
+Package: com.sini921.pscamera
+Name: PSCamera(rootless)
+Description: 系统相机App简单优化，使用了一些PoomSmart的开源代码
+Maintainer: PoomSmart & SINI
+Author: PoomSmart & SINI
+Section: 越狱插件
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://sini921.github.io/repo/sileodepiction/icon/pscamera.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/pscamera/js.json
+Architecture: iphoneos-arm64
+Version: 0.0.1-5
+Installed-Size: 600
+Filename: debs/com.sini921.pscamera_0.0.1-5_iphoneos-arm64.deb
+Size: 122896
+MD5sum: e96b49a69f84b37103e5496fac2482c1
+SHA1: 6fdcc53631a7f69416be930658c0503bc9444a69
+SHA256: 9123b2f3db1fe7566738361b1d476284bc1fe904f1c66b4642088d8d9dedef87
+SHA512: 42abb74f00d649495cb5ba7bc4e8d6deec66a1046acf69da3c7270ee4855cd62951fec3ad262203c4a38793da1dc03fd5a09a4c6ad410dc50bb27b78a490a566
