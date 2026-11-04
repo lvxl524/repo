@@ -124,11 +124,11 @@ Name: XOS
 Description: An awesome MobileSubstrate tweak!!
 Maintainer: XOS
 Author: XOS
-Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 1.6.3
 Installed-Size: 4844
+Section: 微信插件
 Filename: debs/com.shtm.xos_1.6.3_iphoneos-arm64.deb
 Size: 1546230
 MD5sum: 1f1c6769ab61ef132b089dc368c3ae86
@@ -141,11 +141,11 @@ Name: XOS
 Description: An awesome MobileSubstrate tweak!!
 Maintainer: XOS
 Author: XOS
-Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64e
 Version: 1.6.3
 Installed-Size: 4844
+Section: 微信插件
 Filename: debs/com.shtm.xos_1.6.3_iphoneos-arm64e.deb
 Size: 1547144
 MD5sum: bae896aa19971e8ef77a716507cd483d

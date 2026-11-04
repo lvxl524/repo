@@ -1,5 +1,8 @@
 {
   "com.sini.tinge": {
     "section": "系统增强"
+  },
+  "com.shtm.xos": {
+    "section": "微信插件"
   }
 }
