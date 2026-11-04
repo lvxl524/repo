@@ -72,10 +72,12 @@ def extract_control_fields(deb_path: str):
     if name.endswith(".zst"):
         try:
             import zstandard
-            dctx = zstandard.ZstdDecompressor()
-            ctrl = dctx.decompress(ctrl)
         except ImportError:
-            raise RuntimeError("zstd control.tar needs 'zstandard' module")
+            import subprocess, sys as _sys
+            subprocess.run([_sys.executable, "-m", "pip", "install", "-q", "zstandard"], check=False)
+            import zstandard
+        dctx = zstandard.ZstdDecompressor()
+        ctrl = dctx.decompress(ctrl)
     tar = tarfile.open(fileobj=io.BytesIO(ctrl))
     control_bytes = None
     for m in tar.getmembers():
@@ -171,6 +173,10 @@ def main():
         stanzas.append((pkg_id, stanza))
 
     stanzas.sort(key=lambda x: x[0])
+    if not stanzas:
+        # Guard: never write an empty Packages file (would break the repo source).
+        print("ERROR: no .deb found in debs/. Aborting to avoid an empty Packages file.", file=sys.stderr)
+        sys.exit(1)
     packages_text = "\n\n".join(s for _, s in stanzas) + "\n"
     pkg_bytes = packages_text.encode("utf-8")
 
