@@ -10,12 +10,14 @@ Optional overrides.json maps Package-id -> {field: value} applied on top
 Run:  python3 build_repo.py
 Works on Windows and Linux (pure stdlib, no dpkg needed).
 """
-import os, io, sys, json, gzip, lzma, hashlib, tarfile, struct
+import os, io, sys, json, gzip, lzma, bz2, hashlib, tarfile, struct
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DEBS_DIR = os.path.join(ROOT, "debs")
 PKG = os.path.join(ROOT, "Packages")
 PKG_GZ = os.path.join(ROOT, "Packages.gz")
+PKG_BZ2 = os.path.join(ROOT, "Packages.bz2")
+PKG_XZ = os.path.join(ROOT, "Packages.xz")
 REL = os.path.join(ROOT, "Release")
 OVERRIDES = os.path.join(ROOT, "overrides.json")
 
@@ -180,10 +182,18 @@ def main():
     packages_text = "\n\n".join(s for _, s in stanzas) + "\n"
     pkg_bytes = packages_text.encode("utf-8")
 
+    gz_bytes = gzip.compress(pkg_bytes, 9, mtime=0)
+    bz2_bytes = bz2.compress(pkg_bytes)
+    xz_bytes = lzma.compress(pkg_bytes, format=lzma.FORMAT_XZ, preset=9)
+
     with open(PKG, "wb") as f:
         f.write(pkg_bytes)
-    with gzip.GzipFile(PKG_GZ, "wb", mtime=0) as f:
-        f.write(pkg_bytes)
+    with open(PKG_GZ, "wb") as f:
+        f.write(gz_bytes)
+    with open(PKG_BZ2, "wb") as f:
+        f.write(bz2_bytes)
+    with open(PKG_XZ, "wb") as f:
+        f.write(xz_bytes)
 
     # Release header: reuse existing header if present, else default
     header = DEFAULT_RELEASE_HEADER
@@ -197,18 +207,22 @@ def main():
         return (hashlib.md5(b).hexdigest(), hashlib.sha256(b).hexdigest(), len(b))
 
     m_p, s_p, sz_p = sums(pkg_bytes)
-    with open(PKG_GZ, "rb") as f:
-        gz_bytes = f.read()
     m_g, s_g, sz_g = sums(gz_bytes)
+    m_b, s_b, sz_b = sums(bz2_bytes)
+    m_x, s_x, sz_x = sums(xz_bytes)
 
     release_text = (
         header
         + "MD5Sum:\n"
         + f" {m_p}  {sz_p} Packages\n"
         + f" {m_g}  {sz_g} Packages.gz\n"
+        + f" {m_b}  {sz_b} Packages.bz2\n"
+        + f" {m_x}  {sz_x} Packages.xz\n"
         + "SHA256:\n"
         + f" {s_p}  {sz_p} Packages\n"
         + f" {s_g}  {sz_g} Packages.gz\n"
+        + f" {s_b}  {sz_b} Packages.bz2\n"
+        + f" {s_x}  {sz_x} Packages.xz\n"
     )
     with open(REL, "wb") as f:
         f.write(release_text.encode("utf-8"))
@@ -216,7 +230,7 @@ def main():
     print(f"Built {len(stanzas)} package(s):")
     for pid, _ in stanzas:
         print("  -", pid)
-    print(f"Packages: {sz_p} bytes | Packages.gz: {sz_g} bytes")
+    print(f"Packages: {sz_p}B | gz: {sz_g}B | bz2: {sz_b}B | xz: {sz_x}B")
 
 
 if __name__ == "__main__":
