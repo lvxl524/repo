@@ -10,7 +10,11 @@ Support: https://lvxl524.github.io/repo/
 Icon: https://lvxl524.github.io/repo/CydiaIcon.png
 MD5Sum:
  8666ba9228cb26061999c5af52c01194  2411 Packages
- 98ec0e2d4d957dece57dbf7a91edcc5d  1222 Packages.gz
+ 0121ee8bfed526dcacc06343026e91a1  1213 Packages.gz
+ bd3521b809c46dd6ff8dd01fa3a69f67  1368 Packages.bz2
+ bc16bffd6431fac99574954b3d0f9f04  1176 Packages.xz
 SHA256:
  e9b9eab2c9a512499fc71cb89a9e43d2d72acda222bacd5d8d752d31043249e3  2411 Packages
- 8878c83792e170a1fb53036ee07f17a4e7cd07ada90c1b274c316c7054c8fd14  1222 Packages.gz
+ 3522d8d2601dc4262fe536dc80da79443709be8bd79b7c0173e77102a3e2ae47  1213 Packages.gz
+ 5450919379757d90199cd957617760ef0ff5120d8a60213517ca49362daa17d5  1368 Packages.bz2
+ eabb815c526adbef7ef3293ef920cefa38204900d892bc5a852a696558c592fc  1176 Packages.xz
