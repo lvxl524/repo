@@ -1,1 +1,121 @@
+Package: com.bvm.wuzeililiang
+Name: 乌贼本地离线授权
+Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
+Maintainer: BVN
+Author: BVN
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0.1-1
+Installed-Size: 328
+icon: https://huayuarc.github.io/icon/wuzeililiang.jpg
+Filename: debs/com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e.deb
+Size: 38100
+MD5sum: 04a86be5dacc7b092396fad0149d354a
+SHA1: 0d3bae08a3d9b5f513e194124fdfc45438385d2b
+SHA256: d74a79f75baae62cf7514a781c9884e5c980c2b5187ca30da3319315710d03be
+SHA512: dc07a8731dd27cc6ac517a61c0ead3dbba8a72a880a5b656d0ab4e33d70cc90e6db328bf7d977c46a132de6cbc9860e709bad1003a9840d903f6775563161141
 
+Package: com.hang.squidgesturepro-ios17fix
+Name: 乌贼手势 iOS 17 补丁
+Description: 修复SquidGesturePro在iOS17状态栏不生效与启动快捷指令时导致的安全模式。 不生效就把手势内总开关跟小开关重新开启一下，有问题请卸载。
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
+Conflicts: com.codex.squidgesture17fix
+Architecture: iphoneos-arm64e
+Version: 2.3
+Installed-Size: 92
+icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+Filename: debs/com.hang.squidgesturepro-ios17fix_2.3_iphoneos-arm64e.deb
+Size: 15036
+MD5sum: f64e63681d86479a64a1640d32cfdb45
+SHA1: b3df1bf9b8483e23d436177fc145adc8ef93bd6e
+SHA256: 3d0f4c47fc73d9fa34254e4b6f703d9a67f834a27aba0bdd444bc08ce1f240cb
+SHA512: b4a874eac4bc1cc771afb69e626adaf462ada03c08d15b5412a9b67d78daae6205c092c7f6e578ef8d14381af62615d4f0a19ea5bb8544a2889d05946c14db0c
+
+Package: com.johndie.triggr.zhpatch
+Name: Triggr 汉化补丁
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Description: Triggr 汉化补丁：将 Triggr 设置页与界面文本翻译为简体中文，对官方 Triggr 2.x 生效，独立安装、不修改原包。
+Author: lvxl524 <lvxl524@users.noreply.github.com>
+Maintainer: lvxl524 <lvxl524@users.noreply.github.com>
+Section: 汉化补丁
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/com.johndie.triggr.zhpatch_1.0.7_iphoneos-arm64.deb
+Size: 25832
+MD5sum: b40150fdf1634815b3fcbb7e1010966b
+SHA1: 61bfc3c71e85dcb8aa30c5992ff76c9fb6c3c70f
+SHA256: 3056d3f5cc1bf3a873245971846326bc0ecd4940b0ece9858815f4cd99b132b3
+SHA512: 4bba2b9dda4231d4cd1911b11bc61f1cb748dcaae7162600e53d9b8e195954e2b8d6af712b3253a03b25b158ccdbce18e4ec234b819afdea3ace11c29b79bb4b
+
+Package: com.johndie.triggr.zhpatch
+Name: Triggr 汉化补丁
+Version: 1.0.7
+Architecture: iphoneos-arm64e
+Description: Triggr 汉化补丁：将 Triggr 设置页与界面文本翻译为简体中文，对官方 Triggr 2.x 生效，独立安装、不修改原包。
+Author: lvxl524 <lvxl524@users.noreply.github.com>
+Maintainer: lvxl524 <lvxl524@users.noreply.github.com>
+Section: 汉化补丁
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/com.johndie.triggr.zhpatch_1.0.7_iphoneos-arm64e.deb
+Size: 26464
+MD5sum: a8c48164ad2f908251c49b987a3b3e9a
+SHA1: 79881b0f1a3af196fce65ac53875317baf34ba5a
+SHA256: a5b7720bdf140119f6de252458489133bc1fb1299e4bc8ff5279f58896dc66f8
+SHA512: 0e0fd19d003cab47ec41ed76d889807ae7b0e0728de23c8c88e0a350561800a74377a079436d6faa2fe4de3b129d66f99ba1958a85aec6db174f8bc6867fec01
+
+Package: com.shtm.xos
+Name: XOS
+Description: An awesome MobileSubstrate tweak!!
+Maintainer: XOS
+Author: XOS
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.6.3
+Installed-Size: 4844
+Filename: debs/com.shtm.xos_1.6.3_iphoneos-arm64.deb
+Size: 1546230
+MD5sum: 1f1c6769ab61ef132b089dc368c3ae86
+SHA1: b015f4dac171eca6e139292e9fe39ed596032c44
+SHA256: 69cce70769c4097e83046579fedc79e000b707c75d4255a2a1e4af846ba09b51
+SHA512: 3bcc30d6631b12daebfdb846413c89157d9c5da40b959ca4e0f8fe2274e770349472d64176281c332ae773c30fea80678a7be2a6a092d2106a6f99671bcc8f5c
+
+Package: com.shtm.xos
+Name: XOS
+Description: An awesome MobileSubstrate tweak!!
+Maintainer: XOS
+Author: XOS
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.6.3
+Installed-Size: 4844
+Filename: debs/com.shtm.xos_1.6.3_iphoneos-arm64e.deb
+Size: 1547144
+MD5sum: bae896aa19971e8ef77a716507cd483d
+SHA1: f59c3175bcec2a7b6926eb25e5d097f266edc997
+SHA256: 96de57a9b8d11863fda0835fd6cba9c4ef56c2fbf427df24bddd1e3f444c31ad
+SHA512: 033e719336e0c8355fa59fe0139ff5c8321746ceb53b0eda6bbe539db18fda7952d6d1718bc160bd1120a959144a0c5636cc68a7e9a36c4d93a4c1947f6f196d
+
+Author: P2KDev
+Architecture: iphoneos-arm64
+Description: 根据你的软件图标颜色来自适应角标颜色，季伯宇强烈推荐
+Maintainer: sini921
+Version: 1.2.2
+Depends: firmware (>= 15.0), mobilesubstrate, ws.hbang.alderis
+Name: Tinge(rootless)
+Conflicts: cpm.dao.tinge.cn
+Sponsor: sini921
+Package: com.sini.tinge
+icon: https://sini921.github.io/repo/sileodepiction/icon/tinge.png
+Section: 系统增强
+Filename: debs/com.sini.tinge_1.2.2_iphoneos-arm64.deb
+Size: 41308
+MD5sum: 7de2e5eeaa76aaff0d7d0d99bad63c35
+SHA1: c6fd476a7307f5c0d8d64143b62ed97554dfb9f1
+SHA256: 7c3ff5e377313a73c7060bfbded2465d1f053c1fe0a386d2d7f618c4383fd288
+SHA512: bbde26f27dd70252cee710bb9f5c5d903cc97a88c75dbb37e1927a49b6c924f64a81b61f066383e461a97343d454bb7c07861102b0f9c34d299f63cecd61b3b9
