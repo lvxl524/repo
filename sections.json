@@ -1,6 +1,11 @@
 {
   "sections": [
     {
+      "name": "汉化补丁",
+      "orig": "",
+      "pkgs": ["com.johndie.triggr.zhpatch"]
+    },
+    {
       "name": "微信插件",
       "orig": "",
       "pkgs": []
