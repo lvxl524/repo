@@ -1,3 +1,19 @@
+Package: com.johndie.triggr.zhpatch
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Maintainer: lvxl524 <lvxl524@users.noreply.github.com>
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/com.johndie.triggr.zhpatch_1.0.7_iphoneos-arm64.deb
+Size: 25832
+MD5sum: b40150fdf1634815b3fcbb7e1010966b
+SHA1: 61bfc3c71e85dcb8aa30c5992ff76c9fb6c3c70f
+SHA256: 3056d3f5cc1bf3a873245971846326bc0ecd4940b0ece9858815f4cd99b132b3
+SHA512: 4bba2b9dda4231d4cd1911b11bc61f1cb748dcaae7162600e53d9b8e195954e2b8d6af712b3253a03b25b158ccdbce18e4ec234b819afdea3ace11c29b79bb4b
+Section: 汉化补丁
+Description: Triggr 汉化补丁：将 Triggr 设置页与界面文本翻译为简体中文，对官方 Triggr 2.x 生效，独立安装、不修改原包。
+Name: Triggr 汉化补丁
+Author: lvxl524 <lvxl524@users.noreply.github.com>
+
 Package: com.sini.tinge
 Architecture: iphoneos-arm64
 Version: 1.2.2
