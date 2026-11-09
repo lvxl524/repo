@@ -119,6 +119,42 @@ SHA1: 79881b0f1a3af196fce65ac53875317baf34ba5a
 SHA256: a5b7720bdf140119f6de252458489133bc1fb1299e4bc8ff5279f58896dc66f8
 SHA512: 0e0fd19d003cab47ec41ed76d889807ae7b0e0728de23c8c88e0a350561800a74377a079436d6faa2fe4de3b129d66f99ba1958a85aec6db174f8bc6867fec01
 
+Package: com.mlgm.filzacrack
+Name: Filza Crack
+Description: Filza 5.x 解锁完整版
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/FilzaCrack.png
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit (>= 5.0.0~), com.tigisoftware.filza64bit (<< 6~)
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 204
+Filename: debs/com.mlgm.filzacrack_1.0_iphoneos-arm64.deb
+Size: 8322
+MD5sum: 94d3b2b5883fcc0c0ec3cdbc2300b6a7
+SHA1: 830e3a3ac4b7b47ae0a58f8cd961768842fc7524
+SHA256: 65e26b28418de86e1a455758f98d7bd934d3d3ffb0fcaf90548319d031e0665b
+SHA512: 42eb17c9c81d9dcad81df2f78d0ae5987fb53f7a3e61efb24a7fb411ea9865a40fd2355ea513383b6f5e2f1a122f5851e56caaecc5a0f78e642bd1d7ac626165
+
+Package: com.mlgm.filzapatch
+Name: Filza Patch
+Description: Filza 5.x 的 RootHide 动态补丁
+Maintainer: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/FilzaPatch.png
+Depends: firmware (>= 15.0), com.roothide.patchloader (>= 0.0.8), roothide (>= 0.1.0)
+Conflicts: roothide.patches.filza
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 170
+Filename: debs/com.mlgm.filzapatch_1.0.2_iphoneos-arm64e.deb
+Size: 39566
+MD5sum: f37d4476873e51e021f82f544b64e719
+SHA1: 9fe3f9db3bb1bdb44372a55ee03b751e02bf5b4f
+SHA256: d74f3b167f62dc5fd5325a43dc7fc926f483a98989c98339d6a4754e72505bd3
+SHA512: 8f7014099ebf76dbf7f9722bcd3fc58c2ddd36d41015b738dd33ee328fb5bfc4a0fb0b336a3ae95b4487f5962c77bed08ef662422e775c931a10a582db397a0e
+
 Package: com.shtm.xos
 Name: XOS
 Description: An awesome MobileSubstrate tweak!!
